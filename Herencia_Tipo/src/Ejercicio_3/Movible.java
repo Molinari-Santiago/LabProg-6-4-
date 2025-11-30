@@ -1,5 +1,8 @@
 package Ejercicio_3;
 
-public class Movible {
-
+public interface Movible {
+	int getPosx();
+	int getPosy();
+	void setXY(int x, int y);
+	void incrementaPos(int valorX, int valorY);
 }
