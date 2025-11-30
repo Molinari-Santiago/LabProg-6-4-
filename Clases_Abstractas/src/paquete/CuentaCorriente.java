@@ -1,6 +1,6 @@
 package paquete;
 
-ublic class CuentaCorriente extends CuentaBancaria {
+public class CuentaCorriente extends CuentaBancaria {
 	private double giroEnDescubierto;
 	public CuentaCorriente(String titular) {
 		super(titular);
@@ -26,3 +26,4 @@ ublic class CuentaCorriente extends CuentaBancaria {
 	}
 	
 }
+
